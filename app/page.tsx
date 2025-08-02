@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { ProjectCard } from "@/components/project-card"
 import { CreateProjectDialog } from "@/components/create-project-dialog"
+import { EditProjectDialog } from "@/components/edit-project-dialog"
 import type { Project } from "@/types/project"
 import { Button } from "@/components/ui/button"
 import { Plus, FolderOpen } from "lucide-react"
@@ -11,6 +12,7 @@ export default function ProjectDashboard() {
   const [projects, setProjects] = useState<Project[]>([])
   const [loading, setLoading] = useState(true)
   const [isCreateDialogOpen, setIsCreateDialogOpen] = useState(false)
+  const [editingProject, setEditingProject] = useState<Project | null>(null)
 
   useEffect(() => {
     loadProjects()
@@ -28,14 +30,19 @@ export default function ProjectDashboard() {
     }
   }
 
-  const createProject = async (name: string, description?: string) => {
+  const createProject = async (
+    name: string,
+    description?: string,
+    startDate?: string,
+    endDate?: string
+  ) => {
     try {
       const response = await fetch("/api/projects", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name, description }),
+        body: JSON.stringify({ name, description, startDate, endDate }),
       })
 
       if (response.ok) {
@@ -59,6 +66,35 @@ export default function ProjectDashboard() {
     } catch (error) {
       console.error("Failed to delete project:", error)
     }
+  }
+
+  const updateProject = async (
+    projectId: string,
+    name: string,
+    description?: string,
+    startDate?: string,
+    endDate?: string
+  ) => {
+    try {
+      const response = await fetch(`/api/projects/${projectId}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, description, startDate, endDate }),
+      })
+
+      if (response.ok) {
+        loadProjects()
+        setEditingProject(null)
+      }
+    } catch (error) {
+      console.error("Failed to update project:", error)
+    }
+  }
+
+  const editProject = (project: Project) => {
+    setEditingProject(project)
   }
 
   if (loading) {
@@ -100,7 +136,7 @@ export default function ProjectDashboard() {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project) => (
-              <ProjectCard key={project.id} project={project} onDelete={deleteProject} />
+              <ProjectCard key={project.id} project={project} onDelete={deleteProject} onEdit={editProject} />
             ))}
           </div>
         )}
@@ -109,6 +145,19 @@ export default function ProjectDashboard() {
           open={isCreateDialogOpen}
           onOpenChange={setIsCreateDialogOpen}
           onCreateProject={createProject}
+        />
+
+        <EditProjectDialog
+          open={!!editingProject}
+          project={editingProject}
+          onOpenChange={(open) => {
+            if (!open) setEditingProject(null)
+          }}
+          onUpdateProject={(name, description, startDate, endDate) => {
+            if (editingProject) {
+              updateProject(editingProject.id, name, description, startDate, endDate)
+            }
+          }}
         />
       </div>
     </div>

@@ -7,4 +7,6 @@ export interface Project {
   createdAt: string
   updatedAt: string
   tasks: Task[]
+  startDate?: string
+  endDate?: string
 }
