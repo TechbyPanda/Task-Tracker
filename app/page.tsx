@@ -92,7 +92,7 @@ export default function ProjectDashboard() {
             <FolderOpen className="w-16 h-16 text-gray-400 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-gray-900 mb-2">No projects yet</h3>
             <p className="text-gray-600 mb-6">Create your first project to start organizing your tasks</p>
-            <Button onClick={() => setIsCreateDialogOpen(true)} className="flex items-center gap-2">
+            <Button onClick={() => setIsCreateDialogOpen(true)} className="mx-auto flex items-center gap-2">
               <Plus className="w-4 h-4" />
               Create Project
             </Button>

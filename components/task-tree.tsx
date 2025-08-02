@@ -18,7 +18,7 @@ interface TaskTreeProps {
 }
 
 export function TaskTree({ task, onUpdateTask, onAddSubtask, onDeleteTask, level }: TaskTreeProps) {
-  const [isExpanded, setIsExpanded] = useState(true)
+  const [isExpanded, setIsExpanded] = useState(false)
   const [isAddingSubtask, setIsAddingSubtask] = useState(false)
   const [newSubtaskName, setNewSubtaskName] = useState("")
 

@@ -1,0 +1,2002 @@
+{
+  "projects": [
+    {
+      "id": "1754037924943",
+      "name": "UPSC DAYS",
+      "createdAt": "2025-08-01T08:45:24.943Z",
+      "updatedAt": "2025-08-02T02:56:06.220Z",
+      "tasks": [
+        {
+          "id": "1754037934450",
+          "name": "polity",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "1754054193966",
+              "name": "1",
+              "done": false,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "1754037938744",
+          "name": "economy",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "1754052878458",
+              "name": "1",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754052884421",
+              "name": "2",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754052887914",
+              "name": "3",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754052891040",
+              "name": "4",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754052894094",
+              "name": "5",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754052896651",
+              "name": "6",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754052899780",
+              "name": "7",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754052904509",
+              "name": "8",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754052907848",
+              "name": "9",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754052914092",
+              "name": "10",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754052919158",
+              "name": "11",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052923300",
+              "name": "12",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052927796",
+              "name": "13",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052932578",
+              "name": "14",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052936458",
+              "name": "15",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052940659",
+              "name": "16",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052944609",
+              "name": "17",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052948800",
+              "name": "18",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052952837",
+              "name": "19",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052957938",
+              "name": "20",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052961644",
+              "name": "21",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052965287",
+              "name": "22",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052968225",
+              "name": "23",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052972665",
+              "name": "24",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052975445",
+              "name": "25",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052978376",
+              "name": "26",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052982949",
+              "name": "27",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052989007",
+              "name": "28",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052993086",
+              "name": "29",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754052996527",
+              "name": "30",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754053001019",
+              "name": "31",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754053004259",
+              "name": "32",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754053009024",
+              "name": "33",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754053020973",
+              "name": "34",
+              "done": false,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "1754037942699",
+          "name": "geography",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "1754038111379",
+              "name": "1",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038115122",
+              "name": "2",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038120661",
+              "name": "3",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038124663",
+              "name": "4",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129226",
+              "name": "5",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129227",
+              "name": "6",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129228",
+              "name": "7",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129229",
+              "name": "8",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129230",
+              "name": "9",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129231",
+              "name": "10",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129232",
+              "name": "11",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129233",
+              "name": "12",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129234",
+              "name": "13",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129235",
+              "name": "14",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129236",
+              "name": "15",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129237",
+              "name": "16",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129238",
+              "name": "17",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129239",
+              "name": "18",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129240",
+              "name": "19",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129241",
+              "name": "20",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129242",
+              "name": "21",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129243",
+              "name": "22",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129244",
+              "name": "23",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129245",
+              "name": "24",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129246",
+              "name": "25",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129247",
+              "name": "26",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129248",
+              "name": "27",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129249",
+              "name": "28",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129250",
+              "name": "29",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129251",
+              "name": "30",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129252",
+              "name": "31",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129253",
+              "name": "32",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129254",
+              "name": "33",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129255",
+              "name": "34",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129256",
+              "name": "35",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129257",
+              "name": "36",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129258",
+              "name": "37",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038129259",
+              "name": "38",
+              "done": false,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "1754037945307",
+          "name": "science",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "1754037949682",
+          "name": "modern history",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "1754038239256",
+              "name": "1",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754038242611",
+              "name": "2",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038245981",
+              "name": "3",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038249662",
+              "name": "4",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038252460",
+              "name": "5",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038256668",
+              "name": "6",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038259368",
+              "name": "7",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038261989",
+              "name": "8",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038266783",
+              "name": "9",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038272854",
+              "name": "10",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038276574",
+              "name": "11",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038280734",
+              "name": "12",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038286854",
+              "name": "13",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038290478",
+              "name": "14",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038294790",
+              "name": "15",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038301883",
+              "name": "16",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038307795",
+              "name": "17",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038314759",
+              "name": "18",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038318915",
+              "name": "19",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038323185",
+              "name": "20",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038326558",
+              "name": "21",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038332077",
+              "name": "22",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038335945",
+              "name": "23",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038339248",
+              "name": "24",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038348292",
+              "name": "25",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038355697",
+              "name": "26",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038359675",
+              "name": "27",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038364265",
+              "name": "28",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038372173",
+              "name": "29",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038376679",
+              "name": "30",
+              "done": false,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "1754037952681",
+          "name": "ancient history",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "1754038111501",
+              "name": "1",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111502",
+              "name": "2",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111503",
+              "name": "3",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111504",
+              "name": "4",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111505",
+              "name": "5",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111506",
+              "name": "6",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111507",
+              "name": "7",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111508",
+              "name": "8",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111509",
+              "name": "9",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111510",
+              "name": "10",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111511",
+              "name": "11",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111512",
+              "name": "12",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111513",
+              "name": "13",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111514",
+              "name": "14",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111515",
+              "name": "15",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111516",
+              "name": "16",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111517",
+              "name": "17",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111518",
+              "name": "18",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111519",
+              "name": "19",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111520",
+              "name": "20",
+              "done": false,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "1754037956756",
+          "name": "medieval history",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "1754038111601",
+              "name": "1",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111602",
+              "name": "2",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111603",
+              "name": "3",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111604",
+              "name": "4",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111605",
+              "name": "5",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111606",
+              "name": "6",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111607",
+              "name": "7",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111608",
+              "name": "8",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111609",
+              "name": "9",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111610",
+              "name": "10",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111611",
+              "name": "11",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111612",
+              "name": "12",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111613",
+              "name": "13",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111614",
+              "name": "14",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111615",
+              "name": "15",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111616",
+              "name": "16",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111617",
+              "name": "17",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111618",
+              "name": "18",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111619",
+              "name": "19",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111620",
+              "name": "20",
+              "done": false,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "1754037962150",
+          "name": "csat",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "1754038111701",
+              "name": "1",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111702",
+              "name": "2",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111703",
+              "name": "3",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111704",
+              "name": "4",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111705",
+              "name": "5",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111706",
+              "name": "6",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111707",
+              "name": "7",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111708",
+              "name": "8",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111709",
+              "name": "9",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111710",
+              "name": "10",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111711",
+              "name": "11",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111712",
+              "name": "12",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111713",
+              "name": "13",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111714",
+              "name": "14",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111715",
+              "name": "15",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111716",
+              "name": "16",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111717",
+              "name": "17",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111718",
+              "name": "18",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111719",
+              "name": "19",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111720",
+              "name": "20",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111721",
+              "name": "21",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111722",
+              "name": "22",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111723",
+              "name": "23",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111724",
+              "name": "24",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111725",
+              "name": "25",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111726",
+              "name": "26",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111727",
+              "name": "27",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111728",
+              "name": "28",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111729",
+              "name": "29",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111730",
+              "name": "30",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111731",
+              "name": "31",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111732",
+              "name": "32",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111733",
+              "name": "33",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111734",
+              "name": "34",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111735",
+              "name": "35",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111736",
+              "name": "36",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111737",
+              "name": "37",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111738",
+              "name": "38",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111739",
+              "name": "39",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111740",
+              "name": "40",
+              "done": false,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "1754037980119",
+          "name": "environment",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "1754038111800",
+              "name": "1",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111801",
+              "name": "2",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111802",
+              "name": "3",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111803",
+              "name": "4",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111804",
+              "name": "5",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111805",
+              "name": "6",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111806",
+              "name": "7",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111807",
+              "name": "8",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111808",
+              "name": "9",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111809",
+              "name": "10",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111810",
+              "name": "11",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111811",
+              "name": "12",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111812",
+              "name": "13",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111813",
+              "name": "14",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111814",
+              "name": "15",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111815",
+              "name": "16",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111816",
+              "name": "17",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111817",
+              "name": "18",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111818",
+              "name": "19",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111819",
+              "name": "20",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111820",
+              "name": "21",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111821",
+              "name": "22",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111822",
+              "name": "23",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111823",
+              "name": "24",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111824",
+              "name": "25",
+              "done": false,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "1754037994665",
+          "name": "current affairs",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "1754038111900",
+              "name": "1 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111901",
+              "name": "2 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111902",
+              "name": "3 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111903",
+              "name": "4 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111904",
+              "name": "5 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111905",
+              "name": "6 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111906",
+              "name": "7 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111907",
+              "name": "8 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111908",
+              "name": "9 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111909",
+              "name": "10 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111910",
+              "name": "11 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111911",
+              "name": "12 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111912",
+              "name": "13 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111913",
+              "name": "14 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111914",
+              "name": "15 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111915",
+              "name": "16 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111916",
+              "name": "17 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111917",
+              "name": "18 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111918",
+              "name": "19 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111919",
+              "name": "20 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111920",
+              "name": "21 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111921",
+              "name": "22 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111922",
+              "name": "23 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111923",
+              "name": "24 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111924",
+              "name": "25 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111925",
+              "name": "26 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111926",
+              "name": "27 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111927",
+              "name": "28 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111928",
+              "name": "29 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111929",
+              "name": "30 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111930",
+              "name": "31 / May / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111931",
+              "name": "1 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111932",
+              "name": "2 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111933",
+              "name": "3 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111934",
+              "name": "4 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111935",
+              "name": "5 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111936",
+              "name": "6 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111937",
+              "name": "7 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111938",
+              "name": "8 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111939",
+              "name": "9 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111940",
+              "name": "10 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111941",
+              "name": "11 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111942",
+              "name": "12 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111943",
+              "name": "13 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111944",
+              "name": "14 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111945",
+              "name": "15 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111946",
+              "name": "16 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111947",
+              "name": "17 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111948",
+              "name": "18 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111949",
+              "name": "19 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111950",
+              "name": "20 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111951",
+              "name": "21 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111952",
+              "name": "22 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111953",
+              "name": "23 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111954",
+              "name": "24 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111955",
+              "name": "25 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111956",
+              "name": "26 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111957",
+              "name": "27 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111958",
+              "name": "28 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111959",
+              "name": "29 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111960",
+              "name": "30 / June / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111961",
+              "name": "1 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111962",
+              "name": "2 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111963",
+              "name": "3 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111964",
+              "name": "4 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111965",
+              "name": "5 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111966",
+              "name": "6 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111967",
+              "name": "7 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111968",
+              "name": "8 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111969",
+              "name": "9 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111970",
+              "name": "10 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111971",
+              "name": "11 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111972",
+              "name": "12 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111973",
+              "name": "13 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111974",
+              "name": "14 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111975",
+              "name": "15 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111976",
+              "name": "16 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111977",
+              "name": "17 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111978",
+              "name": "18 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111979",
+              "name": "19 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111980",
+              "name": "20 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111981",
+              "name": "21 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111982",
+              "name": "22 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111983",
+              "name": "23 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111984",
+              "name": "24 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111985",
+              "name": "25 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111986",
+              "name": "26 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111987",
+              "name": "27 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111988",
+              "name": "28 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111989",
+              "name": "29 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111990",
+              "name": "30 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111991",
+              "name": "31 / July / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111992",
+              "name": "1 / August / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111993",
+              "name": "2 / August / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111994",
+              "name": "3 / August / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111995",
+              "name": "4 / August / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111996",
+              "name": "5 / August / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754038111997",
+              "name": "6 / August / 2025 CNA",
+              "done": false,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "1754038057173",
+          "name": "International relation",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "1754044533007",
+          "name": "Psychology (Optional)",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "1754047103859",
+              "name": "1",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754047107714",
+              "name": "2",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754047111305",
+              "name": "3",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754047114990",
+              "name": "4",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754047118769",
+              "name": "5",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754047124095",
+              "name": "6",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754047128821",
+              "name": "7",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754047133965",
+              "name": "8",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754047138884",
+              "name": "9",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754047145548",
+              "name": "10",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754047150903",
+              "name": "11",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754047164298",
+              "name": "12",
+              "done": false,
+              "subtasks": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
