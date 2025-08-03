@@ -4,7 +4,7 @@
       "id": "1754037924943",
       "name": "UPSC 0.1",
       "createdAt": "2025-08-01T08:45:24.943Z",
-      "updatedAt": "2025-08-02T04:04:52.657Z",
+      "updatedAt": "2025-08-03T15:41:01.854Z",
       "tasks": [
         {
           "id": "1754037934450",
@@ -606,7 +606,7 @@
             {
               "id": "1754038242611",
               "name": "2",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
@@ -1991,7 +1991,7 @@
             {
               "id": "1754038111991",
               "name": "31 / July / 2025 CNA",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
@@ -2116,6 +2116,18 @@
               "subtasks": []
             }
           ]
+        },
+        {
+          "id": "1754207507233",
+          "name": "Psychology NCERT XI",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "1754207511344",
+          "name": "Psychology NCERT XII",
+          "done": false,
+          "subtasks": []
         }
       ],
       "startDate": "2025-05-01T00:00:00.000Z",
