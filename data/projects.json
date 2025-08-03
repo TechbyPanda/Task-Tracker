@@ -2,9 +2,9 @@
   "projects": [
     {
       "id": "1754037924943",
-      "name": "UPSC DAYS",
+      "name": "UPSC 0.1",
       "createdAt": "2025-08-01T08:45:24.943Z",
-      "updatedAt": "2025-08-02T02:56:06.220Z",
+      "updatedAt": "2025-08-03T15:41:01.854Z",
       "tasks": [
         {
           "id": "1754037934450",
@@ -469,7 +469,128 @@
           "id": "1754037945307",
           "name": "science",
           "done": false,
-          "subtasks": []
+          "subtasks": [
+            {
+              "id": "1754107420624",
+              "name": "1",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107425208",
+              "name": "2",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107428409",
+              "name": "3",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107431086",
+              "name": "4",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107433876",
+              "name": "5",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107436857",
+              "name": "6",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107439668",
+              "name": "7",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107442480",
+              "name": "8",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107445015",
+              "name": "9",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107453669",
+              "name": "10",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107461895",
+              "name": "11",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107465601",
+              "name": "12",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107468641",
+              "name": "13",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107472380",
+              "name": "14",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107475601",
+              "name": "15",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107478918",
+              "name": "16",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107482577",
+              "name": "17",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107485929",
+              "name": "18",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107488906",
+              "name": "19",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754107492486",
+              "name": "20",
+              "done": false,
+              "subtasks": []
+            }
+          ]
         },
         {
           "id": "1754037949682",
@@ -485,7 +606,7 @@
             {
               "id": "1754038242611",
               "name": "2",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
@@ -1840,37 +1961,37 @@
             {
               "id": "1754038111986",
               "name": "26 / July / 2025 CNA",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
               "id": "1754038111987",
               "name": "27 / July / 2025 CNA",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
               "id": "1754038111988",
               "name": "28 / July / 2025 CNA",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
               "id": "1754038111989",
               "name": "29 / July / 2025 CNA",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
               "id": "1754038111990",
               "name": "30 / July / 2025 CNA",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
               "id": "1754038111991",
               "name": "31 / July / 2025 CNA",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
@@ -1919,12 +2040,12 @@
         },
         {
           "id": "1754044533007",
-          "name": "Psychology (Optional)",
+          "name": "Social Psychology By Baron (Optional)",
           "done": false,
           "subtasks": [
             {
               "id": "1754047103859",
-              "name": "1",
+              "name": "1 Social Psychology",
               "done": false,
               "subtasks": []
             },
@@ -1995,8 +2116,22 @@
               "subtasks": []
             }
           ]
+        },
+        {
+          "id": "1754207507233",
+          "name": "Psychology NCERT XI",
+          "done": false,
+          "subtasks": []
+        },
+        {
+          "id": "1754207511344",
+          "name": "Psychology NCERT XII",
+          "done": false,
+          "subtasks": []
         }
-      ]
+      ],
+      "startDate": "2025-05-01T00:00:00.000Z",
+      "endDate": "2025-10-31T00:00:00.000Z"
     }
   ]
 }

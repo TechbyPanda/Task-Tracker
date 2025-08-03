@@ -9,7 +9,7 @@ import type { Task } from "@/types/task"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { ArrowLeft, Plus, Calendar, CheckCircle2, Circle } from "lucide-react"
+import { ArrowLeft, Plus, Calendar, CheckCircle2, Circle, Clock } from "lucide-react"
 
 export default function ProjectPage() {
   const params = useParams()
@@ -189,6 +189,21 @@ export default function ProjectPage() {
   const completedTasks = project ? countCompletedTasks(project.tasks) : 0
   const completionPercentage = totalTasks > 0 ? Math.round((completedTasks / totalTasks) * 100) : 0
 
+  // Date displays
+  const startDateDisplay = project?.startDate ? new Date(project.startDate).toLocaleDateString() : "N/A"
+  const endDateDisplay = project?.endDate ? new Date(project.endDate).toLocaleDateString() : "N/A"
+  let timeLeftDisplay: string | null = null
+  if (project?.endDate) {
+    const diffMs = new Date(project.endDate).getTime() - Date.now()
+    if (diffMs > 0) {
+      const days = Math.floor(diffMs / 86400000)
+      const hours = Math.floor((diffMs % 86400000) / 3600000)
+      timeLeftDisplay = `${days}d ${hours}h left`
+    } else {
+      timeLeftDisplay = "Ended"
+    }
+  }
+
   function countTasks(tasks: Task[]): number {
     return tasks.reduce((count, task) => {
       return count + 1 + countTasks(task.subtasks || [])
@@ -243,7 +258,7 @@ export default function ProjectPage() {
                 {project.description && <p className="text-gray-600 mb-4">{project.description}</p>}
 
                 {/* Project Statistics */}
-                <div className="flex items-center gap-6 text-sm">
+                <div className="flex flex-wrap items-center gap-6 text-sm">
                   <div className="flex items-center gap-2">
                     <Circle className="w-4 h-4 text-gray-400" />
                     <span className="text-gray-600">Total: {totalTasks}</span>
@@ -254,8 +269,18 @@ export default function ProjectPage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Calendar className="w-4 h-4 text-gray-400" />
-                    <span className="text-gray-600">Created: {new Date(project.createdAt).toLocaleDateString()}</span>
+                    <span className="text-gray-600">Start: {startDateDisplay}</span>
                   </div>
+                  <div className="flex items-center gap-2">
+                    <Calendar className="w-4 h-4 text-gray-400" />
+                    <span className="text-gray-600">End: {endDateDisplay}</span>
+                  </div>
+                  {timeLeftDisplay && (
+                    <div className="flex items-center gap-2">
+                      <Clock className="w-4 h-4 text-gray-400" />
+                      <span className="text-gray-600">{timeLeftDisplay}</span>
+                    </div>
+                  )}
                   <Badge variant={completionPercentage === 100 ? "default" : "secondary"}>
                     {completionPercentage}% Complete
                   </Badge>

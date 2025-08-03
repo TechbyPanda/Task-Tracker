@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
   try {
     await ensureDataDirectory()
 
-    const { name, description } = await request.json()
+    const { name, description, startDate, endDate } = await request.json()
 
     if (!name?.trim()) {
       return NextResponse.json({ error: "Project name is required" }, { status: 400 })
@@ -61,6 +61,8 @@ export async function POST(request: NextRequest) {
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
       tasks: [],
+      startDate: startDate ? new Date(startDate).toISOString() : undefined,
+      endDate: endDate ? new Date(endDate).toISOString() : undefined,
     }
 
     projects.push(newProject)

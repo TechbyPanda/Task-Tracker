@@ -17,14 +17,15 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog"
-import { MoreVertical, Trash2, Calendar, CheckCircle2, Circle } from "lucide-react"
+import { MoreVertical, Trash2, Calendar, CheckCircle2, Circle, SquarePen } from "lucide-react"
 
 interface ProjectCardProps {
   project: Project
   onDelete: (projectId: string) => void
+  onEdit: (project: Project) => void
 }
 
-export function ProjectCard({ project, onDelete }: ProjectCardProps) {
+export function ProjectCard({ project, onDelete, onEdit }: ProjectCardProps) {
   const [showDeleteDialog, setShowDeleteDialog] = useState(false)
 
   const totalTasks = countTasks(project.tasks)
@@ -62,6 +63,10 @@ export function ProjectCard({ project, onDelete }: ProjectCardProps) {
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
+                <DropdownMenuItem onClick={() => onEdit(project)} className="text-blue-600 focus:text-blue-600">
+                  <SquarePen className="w-4 h-4 mr-2" />
+                  Edit Project
+                </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => setShowDeleteDialog(true)} className="text-red-600 focus:text-red-600">
                   <Trash2 className="w-4 h-4 mr-2" />
                   Delete Project
@@ -107,9 +112,11 @@ export function ProjectCard({ project, onDelete }: ProjectCardProps) {
               <Badge variant={completionPercentage === 100 ? "default" : "secondary"}>
                 {completionPercentage === 100 ? "Completed" : "In Progress"}
               </Badge>
-              <div className="flex items-center text-xs text-gray-500">
-                <Calendar className="w-3 h-3 mr-1" />
-                {new Date(project.createdAt).toLocaleDateString()}
+              <div className="flex items-center text-xs text-gray-500 gap-1">
+                <Calendar className="w-3 h-3" />
+                {project.startDate ? new Date(project.startDate).toLocaleDateString() : "N/A"}
+                {"-"}
+                {project.endDate ? new Date(project.endDate).toLocaleDateString() : ""}
               </div>
             </div>
           </div>
