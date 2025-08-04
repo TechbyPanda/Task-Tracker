@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { ArrowLeft, Plus, Calendar, CheckCircle2, Circle, Clock } from "lucide-react"
+import { ProgressCalculator } from "@/components/progress-calculator"
 
 export default function ProjectPage() {
   const params = useParams()
@@ -297,6 +298,9 @@ export default function ProjectPage() {
                     </div>
                   </div>
                 )}
+
+                {/* Progress Calculator */}
+                <ProgressCalculator totalTasks={totalTasks} completedTasks={completedTasks} />
               </div>
             </div>
           </div>

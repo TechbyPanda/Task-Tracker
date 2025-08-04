@@ -4,7 +4,7 @@
       "id": "1754037924943",
       "name": "UPSC 0.1",
       "createdAt": "2025-08-01T08:45:24.943Z",
-      "updatedAt": "2025-08-03T15:41:01.854Z",
+      "updatedAt": "2025-08-04T06:01:18.748Z",
       "tasks": [
         {
           "id": "1754037934450",
@@ -14,6 +14,216 @@
             {
               "id": "1754054193966",
               "name": "1",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236485996",
+              "name": "2",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236488434",
+              "name": "3",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236490721",
+              "name": "4",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236493088",
+              "name": "5",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236495415",
+              "name": "6",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236497872",
+              "name": "7",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236505336",
+              "name": "8",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236510055",
+              "name": "9",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236516712",
+              "name": "10",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236519834",
+              "name": "11",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236522717",
+              "name": "12",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236526419",
+              "name": "13",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236531915",
+              "name": "14",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236535864",
+              "name": "15",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236542185",
+              "name": "16",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236547697",
+              "name": "17",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236551237",
+              "name": "18",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236557841",
+              "name": "19",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236609759",
+              "name": "20",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236616037",
+              "name": "21",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236621528",
+              "name": "22",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236624604",
+              "name": "23",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236627645",
+              "name": "24",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236630611",
+              "name": "25",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236633721",
+              "name": "26",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236637235",
+              "name": "27",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236642324",
+              "name": "28",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236650438",
+              "name": "29",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236656225",
+              "name": "30",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236659786",
+              "name": "31",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236664295",
+              "name": "32",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236672174",
+              "name": "33",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236676235",
+              "name": "34",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236688736",
+              "name": "35",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236696124",
+              "name": "36",
               "done": false,
               "subtasks": []
             }
@@ -322,7 +532,7 @@
             {
               "id": "1754038129236",
               "name": "15",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
@@ -2121,11 +2331,139 @@
           "id": "1754207507233",
           "name": "Psychology NCERT XI",
           "done": false,
-          "subtasks": []
+          "subtasks": [
+            {
+              "id": "1754236052794",
+              "name": "1",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236087271",
+              "name": "2",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236090494",
+              "name": "3",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236093365",
+              "name": "4",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236095458",
+              "name": "5",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236100516",
+              "name": "6",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236107664",
+              "name": "7",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236138782",
+              "name": "8",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236143373",
+              "name": "9",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236150057",
+              "name": "10",
+              "done": false,
+              "subtasks": []
+            }
+          ]
         },
         {
           "id": "1754207511344",
           "name": "Psychology NCERT XII",
+          "done": false,
+          "subtasks": [
+            {
+              "id": "1754236169936",
+              "name": "1",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236173846",
+              "name": "2",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236176453",
+              "name": "3",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236179397",
+              "name": "4",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236182217",
+              "name": "5",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236185239",
+              "name": "6",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236188274",
+              "name": "7",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236191855",
+              "name": "8",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236194783",
+              "name": "9",
+              "done": false,
+              "subtasks": []
+            },
+            {
+              "id": "1754236199493",
+              "name": "10",
+              "done": false,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "1754236750992",
+          "name": "disaster management",
           "done": false,
           "subtasks": []
         }
