@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { ArrowLeft, Plus, Calendar, CheckCircle2, Circle, Clock } from "lucide-react"
-import { ProgressCalculator } from "@/components/progress-calculator"
+import { TargetCalculator } from "@/components/target-calculator"
 
 export default function ProjectPage() {
   const params = useParams()
@@ -20,7 +20,6 @@ export default function ProjectPage() {
   const [project, setProject] = useState<Project | null>(null)
   const [newTaskName, setNewTaskName] = useState("")
   const [loading, setLoading] = useState(true)
-  const [targetPercentage, setTargetPercentage] = useState<number>(0)
 
   useEffect(() => {
     if (projectId) {
@@ -378,28 +377,11 @@ export default function ProjectPage() {
                       </div>
                     )}
                     
-                    {/* Target Calculator */}
-                    <div className="mt-3 p-3 bg-gray-50 rounded-lg">
-                      <div className="flex items-center gap-2 text-sm">
-                        <span className="text-gray-600">To reach</span>
-                        <input
-                          type="number"
-                          min="0"
-                          max="100"
-                          value={targetPercentage}
-                          onChange={(e) => setTargetPercentage(Number(e.target.value))}
-                          className="w-16 px-2 py-1 border rounded text-center"
-                          placeholder="50"
-                        />
-                        <span className="text-gray-600">% completion, you need</span>
-                        <span className="font-semibold text-blue-600">
-                          {targetPercentage > 0 && targetPercentage <= 100 
-                            ? `${getTasksNeededForTarget(targetPercentage)} more tasks`
-                            : "enter target %"
-                          }
-                        </span>
-                      </div>
-                    </div>
+                    <TargetCalculator 
+                      totalTasks={totalTasks}
+                      completedTasks={completedTasks}
+                      completionPercentage={completionPercentage}
+                    />
                   </div>
                 )}
 
