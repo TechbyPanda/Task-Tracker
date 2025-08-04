@@ -193,6 +193,48 @@ export default function ProjectPage() {
   // Date displays
   const startDateDisplay = project?.startDate ? new Date(project.startDate).toLocaleDateString() : "N/A"
   const endDateDisplay = project?.endDate ? new Date(project.endDate).toLocaleDateString() : "N/A"
+  
+  // Calculate total days
+  let totalDaysDisplay: string | null = null
+  if (project?.startDate && project?.endDate) {
+    const startDate = new Date(project.startDate)
+    const endDate = new Date(project.endDate)
+    const diffMs = endDate.getTime() - startDate.getTime()
+    const totalDays = Math.ceil(diffMs / (1000 * 60 * 60 * 24))
+    totalDaysDisplay = `${totalDays} days`
+  }
+
+  // Calculate progress status
+  let progressStatus: { status: string; color: string } | null = null
+  if (project?.startDate && project?.endDate && totalTasks > 0) {
+    const startDate = new Date(project.startDate)
+    const endDate = new Date(project.endDate)
+    const now = new Date()
+    
+    const totalProjectDuration = endDate.getTime() - startDate.getTime()
+    const elapsedDuration = now.getTime() - startDate.getTime()
+    const expectedProgress = Math.max(0, Math.min(100, (elapsedDuration / totalProjectDuration) * 100))
+    
+    const progressDiff = completionPercentage - expectedProgress
+    
+    if (now > endDate) {
+      progressStatus = {
+        status: completionPercentage === 100 ? "Completed" : "Overdue",
+        color: completionPercentage === 100 ? "text-green-600" : "text-red-600"
+      }
+    } else if (progressDiff > 5) {
+      const aheadPercentage = Math.round(progressDiff)
+      progressStatus = { status: `Ahead by ${aheadPercentage}%`, color: "text-green-600" }
+    } else if (progressDiff < -5) {
+      const behindPercentage = Math.round(Math.abs(progressDiff))
+      const totalDays = Math.ceil(totalProjectDuration / (1000 * 60 * 60 * 24))
+      const behindDays = Math.round((behindPercentage / 100) * totalDays)
+      progressStatus = { status: `Behind by ${behindPercentage}% (~${behindDays} days)`, color: "text-red-600" }
+    } else {
+      progressStatus = { status: "On Track", color: "text-blue-600" }
+    }
+  }
+  
   let timeLeftDisplay: string | null = null
   if (project?.endDate) {
     const diffMs = new Date(project.endDate).getTime() - Date.now()
@@ -276,6 +318,18 @@ export default function ProjectPage() {
                     <Calendar className="w-4 h-4 text-gray-400" />
                     <span className="text-gray-600">End: {endDateDisplay}</span>
                   </div>
+                  {totalDaysDisplay && (
+                    <div className="flex items-center gap-2">
+                      <Calendar className="w-4 h-4 text-gray-400" />
+                      <span className="text-gray-600">Duration: {totalDaysDisplay}</span>
+                    </div>
+                  )}
+                  {progressStatus && (
+                    <div className="flex items-center gap-2">
+                      <Circle className={`w-4 h-4 ${progressStatus.color}`} />
+                      <span className={progressStatus.color}>{progressStatus.status}</span>
+                    </div>
+                  )}
                   {timeLeftDisplay && (
                     <div className="flex items-center gap-2">
                       <Clock className="w-4 h-4 text-gray-400" />
