@@ -20,6 +20,7 @@ export default function ProjectPage() {
   const [project, setProject] = useState<Project | null>(null)
   const [newTaskName, setNewTaskName] = useState("")
   const [loading, setLoading] = useState(true)
+  const [targetPercentage, setTargetPercentage] = useState<number>(0)
 
   useEffect(() => {
     if (projectId) {
@@ -235,6 +236,27 @@ export default function ProjectPage() {
     }
   }
   
+  // Calculate motivational message
+  let motivationalMessage: string | null = null
+  if (totalTasks > 0 && completedTasks < totalTasks) {
+    const nextMilestone = Math.ceil(completionPercentage / 10) * 10
+    if (nextMilestone > completionPercentage && nextMilestone <= 100) {
+      const tasksNeededForNextMilestone = Math.ceil((nextMilestone / 100) * totalTasks) - completedTasks
+      if (tasksNeededForNextMilestone === 1) {
+        motivationalMessage = `🎯 Complete 1 more task to reach ${nextMilestone}%!`
+      } else if (tasksNeededForNextMilestone <= 5) {
+        motivationalMessage = `🚀 Complete ${tasksNeededForNextMilestone} more tasks to reach ${nextMilestone}%!`
+      }
+    }
+  }
+
+  // Calculate tasks needed for target percentage
+  const getTasksNeededForTarget = (target: number) => {
+    if (totalTasks === 0 || target <= completionPercentage) return 0
+    const tasksNeeded = Math.ceil((target / 100) * totalTasks) - completedTasks
+    return Math.max(0, tasksNeeded)
+  }
+  
   let timeLeftDisplay: string | null = null
   if (project?.endDate) {
     const diffMs = new Date(project.endDate).getTime() - Date.now()
@@ -350,11 +372,39 @@ export default function ProjectPage() {
                         style={{ width: `${completionPercentage}%` }}
                       />
                     </div>
+                    {motivationalMessage && (
+                      <div className="mt-2 text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">
+                        {motivationalMessage}
+                      </div>
+                    )}
+                    
+                    {/* Target Calculator */}
+                    <div className="mt-3 p-3 bg-gray-50 rounded-lg">
+                      <div className="flex items-center gap-2 text-sm">
+                        <span className="text-gray-600">To reach</span>
+                        <input
+                          type="number"
+                          min="0"
+                          max="100"
+                          value={targetPercentage}
+                          onChange={(e) => setTargetPercentage(Number(e.target.value))}
+                          className="w-16 px-2 py-1 border rounded text-center"
+                          placeholder="50"
+                        />
+                        <span className="text-gray-600">% completion, you need</span>
+                        <span className="font-semibold text-blue-600">
+                          {targetPercentage > 0 && targetPercentage <= 100 
+                            ? `${getTasksNeededForTarget(targetPercentage)} more tasks`
+                            : "enter target %"
+                          }
+                        </span>
+                      </div>
+                    </div>
                   </div>
                 )}
 
                 {/* Progress Calculator */}
-                <ProgressCalculator totalTasks={totalTasks} completedTasks={completedTasks} />
+                {/* <ProgressCalculator totalTasks={totalTasks} completedTasks={completedTasks} /> */}
               </div>
             </div>
           </div>
