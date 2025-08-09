@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { ArrowLeft, Plus, Calendar, CheckCircle2, Circle, Clock } from "lucide-react"
+import { TargetCalculator } from "@/components/target-calculator"
 
 export default function ProjectPage() {
   const params = useParams()
@@ -192,6 +193,69 @@ export default function ProjectPage() {
   // Date displays
   const startDateDisplay = project?.startDate ? new Date(project.startDate).toLocaleDateString() : "N/A"
   const endDateDisplay = project?.endDate ? new Date(project.endDate).toLocaleDateString() : "N/A"
+  
+  // Calculate total days
+  let totalDaysDisplay: string | null = null
+  if (project?.startDate && project?.endDate) {
+    const startDate = new Date(project.startDate)
+    const endDate = new Date(project.endDate)
+    const diffMs = endDate.getTime() - startDate.getTime()
+    const totalDays = Math.ceil(diffMs / (1000 * 60 * 60 * 24))
+    totalDaysDisplay = `${totalDays} days`
+  }
+
+  // Calculate progress status
+  let progressStatus: { status: string; color: string } | null = null
+  if (project?.startDate && project?.endDate && totalTasks > 0) {
+    const startDate = new Date(project.startDate)
+    const endDate = new Date(project.endDate)
+    const now = new Date()
+    
+    const totalProjectDuration = endDate.getTime() - startDate.getTime()
+    const elapsedDuration = now.getTime() - startDate.getTime()
+    const expectedProgress = Math.max(0, Math.min(100, (elapsedDuration / totalProjectDuration) * 100))
+    
+    const progressDiff = completionPercentage - expectedProgress
+    
+    if (now > endDate) {
+      progressStatus = {
+        status: completionPercentage === 100 ? "Completed" : "Overdue",
+        color: completionPercentage === 100 ? "text-green-600" : "text-red-600"
+      }
+    } else if (progressDiff > 5) {
+      const aheadPercentage = Math.round(progressDiff)
+      progressStatus = { status: `Ahead by ${aheadPercentage}%`, color: "text-green-600" }
+    } else if (progressDiff < -5) {
+      const behindPercentage = Math.round(Math.abs(progressDiff))
+      const totalDays = Math.ceil(totalProjectDuration / (1000 * 60 * 60 * 24))
+      const behindDays = Math.round((behindPercentage / 100) * totalDays)
+      progressStatus = { status: `Behind by ${behindPercentage}% (~${behindDays} days)`, color: "text-red-600" }
+    } else {
+      progressStatus = { status: "On Track", color: "text-blue-600" }
+    }
+  }
+  
+  // Calculate motivational message
+  let motivationalMessage: string | null = null
+  if (totalTasks > 0 && completedTasks < totalTasks) {
+    const nextMilestone = Math.ceil(completionPercentage / 10) * 10
+    if (nextMilestone > completionPercentage && nextMilestone <= 100) {
+      const tasksNeededForNextMilestone = Math.ceil((nextMilestone / 100) * totalTasks) - completedTasks
+      if (tasksNeededForNextMilestone === 1) {
+        motivationalMessage = `🎯 Complete 1 more task to reach ${nextMilestone}%!`
+      } else if (tasksNeededForNextMilestone <= 5) {
+        motivationalMessage = `🚀 Complete ${tasksNeededForNextMilestone} more tasks to reach ${nextMilestone}%!`
+      }
+    }
+  }
+
+  // Calculate tasks needed for target percentage
+  const getTasksNeededForTarget = (target: number) => {
+    if (totalTasks === 0 || target <= completionPercentage) return 0
+    const tasksNeeded = Math.ceil((target / 100) * totalTasks) - completedTasks
+    return Math.max(0, tasksNeeded)
+  }
+  
   let timeLeftDisplay: string | null = null
   if (project?.endDate) {
     const diffMs = new Date(project.endDate).getTime() - Date.now()
@@ -275,6 +339,18 @@ export default function ProjectPage() {
                     <Calendar className="w-4 h-4 text-gray-400" />
                     <span className="text-gray-600">End: {endDateDisplay}</span>
                   </div>
+                  {totalDaysDisplay && (
+                    <div className="flex items-center gap-2">
+                      <Calendar className="w-4 h-4 text-gray-400" />
+                      <span className="text-gray-600">Duration: {totalDaysDisplay}</span>
+                    </div>
+                  )}
+                  {progressStatus && (
+                    <div className="flex items-center gap-2">
+                      <Circle className={`w-4 h-4 ${progressStatus.color}`} />
+                      <span className={progressStatus.color}>{progressStatus.status}</span>
+                    </div>
+                  )}
                   {timeLeftDisplay && (
                     <div className="flex items-center gap-2">
                       <Clock className="w-4 h-4 text-gray-400" />
@@ -295,8 +371,22 @@ export default function ProjectPage() {
                         style={{ width: `${completionPercentage}%` }}
                       />
                     </div>
+                    {motivationalMessage && (
+                      <div className="mt-2 text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">
+                        {motivationalMessage}
+                      </div>
+                    )}
+                    
+                    <TargetCalculator 
+                      totalTasks={totalTasks}
+                      completedTasks={completedTasks}
+                      completionPercentage={completionPercentage}
+                    />
                   </div>
                 )}
+
+                {/* Progress Calculator */}
+                {/* <ProgressCalculator totalTasks={totalTasks} completedTasks={completedTasks} /> */}
               </div>
             </div>
           </div>
