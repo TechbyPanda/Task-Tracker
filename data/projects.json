@@ -4,7 +4,7 @@
       "id": "1754037924943",
       "name": "UPSC 0.1",
       "createdAt": "2025-08-01T08:45:24.943Z",
-      "updatedAt": "2025-08-04T15:49:35.923Z",
+      "updatedAt": "2025-08-08T14:54:25.253Z",
       "tasks": [
         {
           "id": "1754037934450",
@@ -544,13 +544,13 @@
             {
               "id": "1754038129238",
               "name": "17",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
               "id": "1754038129239",
               "name": "18",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
@@ -2213,31 +2213,43 @@
             {
               "id": "1754038111993",
               "name": "2 / August / 2025 CNA",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
               "id": "1754038111994",
               "name": "3 / August / 2025 CNA",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
               "id": "1754038111995",
               "name": "4 / August / 2025 CNA",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
               "id": "1754038111996",
               "name": "5 / August / 2025 CNA",
-              "done": false,
+              "done": true,
               "subtasks": []
             },
             {
               "id": "1754038111997",
               "name": "6 / August / 2025 CNA",
-              "done": false,
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754495830714",
+              "name": "7 / Aug / 25 CNA",
+              "done": true,
+              "subtasks": []
+            },
+            {
+              "id": "1754663770384",
+              "name": "8 / Aug / 25",
+              "done": true,
               "subtasks": []
             }
           ]
